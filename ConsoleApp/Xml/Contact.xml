@@ -1,0 +1,8 @@
+<fetch version='1.0' output-format='xml-platform' mapping='logical' distinct='false'>
+  <entity name='contact'>
+    <attribute name='fullname' />
+    <attribute name='telephone1' />
+    <attribute name='contactid' />
+    <order attribute='fullname' descending='false' />
+  </entity>
+</fetch>

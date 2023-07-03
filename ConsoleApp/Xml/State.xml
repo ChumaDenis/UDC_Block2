@@ -1,0 +1,9 @@
+<fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+  <entity name="bookingstatus">
+    <attribute name="name" />
+    <attribute name="createdon" />
+    <attribute name="description" />
+    <attribute name="bookingstatusid" />
+    <order attribute="name" descending="false" />
+  </entity>
+</fetch>

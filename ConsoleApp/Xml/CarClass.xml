@@ -1,0 +1,14 @@
+<fetch version='1.0' output-format='xml-platform' mapping='logical' distinct='false'>
+  <entity name='uds_car_class'>
+    <attribute name='uds_car_classid' />
+    <attribute name='uds_name' />
+    <attribute name='createdon' />
+    <attribute name='uds_price' />
+    <attribute name='uds_classcode' />
+    <attribute name='uds_classdescription' />
+    <order attribute='uds_name' descending='false' />
+    <filter type='and'>
+      <condition attribute='statecode' operator='eq' value='0' />
+    </filter>
+  </entity>
+</fetch>

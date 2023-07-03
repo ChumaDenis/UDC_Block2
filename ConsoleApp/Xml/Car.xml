@@ -1,0 +1,18 @@
+<fetch version='1.0' output-format='xml-platform' mapping='logical' distinct='false'>
+  <entity name='uds_car'>
+    <attribute name='uds_name' />
+    <attribute name='createdon' />
+    <attribute name='uds_vinnumber' />
+    <attribute name='uds_purchase' />
+    <attribute name='uds_production' />
+    <attribute name='uds_carmodel' />
+    <attribute name='uds_carmanufacturer' />
+    <attribute name='uds_car' />
+    <attribute name='uds_carid' />
+    <order attribute='uds_name' descending='false' />
+    <order attribute='uds_vinnumber' descending='false' />
+    <filter type='and'>
+      <condition attribute='statecode' operator='eq' value='0' />
+    </filter>
+  </entity>
+</fetch>

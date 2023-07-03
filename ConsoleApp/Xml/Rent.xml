@@ -1,0 +1,11 @@
+<fetch version='1.0' output-format='xml-platform' mapping='logical' distinct='false'>
+  <entity name='uds_rent'>
+    <attribute name='uds_rentid' />
+    <attribute name='uds_name' />
+    <attribute name='createdon' />
+    <order attribute='uds_name' descending='false' />
+    <filter type='and'>
+      <condition attribute='statecode' operator='eq' value='0' />
+    </filter>
+  </entity>
+</fetch>
